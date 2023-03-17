@@ -11,6 +11,7 @@ import ru.hogwarts.school.service.StudentService;
 @RequestMapping("student")
 public class StudentController {
 
+
     StudentService studentService;
 
     public StudentController(StudentService studentService) {

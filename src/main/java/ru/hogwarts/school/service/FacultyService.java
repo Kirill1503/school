@@ -9,6 +9,7 @@ import ru.hogwarts.school.repositories.FacultyRepository;
 @Service
 public class FacultyService {
 
+
     FacultyRepository facultyRepository;
 
     public FacultyService(FacultyRepository facultyRepository) {

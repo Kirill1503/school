@@ -11,6 +11,7 @@ import ru.hogwarts.school.service.FacultyService;
 @RequestMapping("faculty")
 public class FacultyController {
 
+
     FacultyService facultyService;
 
     @GetMapping("{id}")

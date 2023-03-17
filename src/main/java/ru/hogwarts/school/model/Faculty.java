@@ -5,6 +5,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import java.util.Objects;
 
+
 @Entity
 public class Faculty {
 
@@ -19,6 +20,10 @@ public class Faculty {
         this.id = id;
         this.name = name;
         this.colour = colour;
+    }
+
+    public Faculty() {
+
     }
 
     public Long getId() {
